@@ -1,0 +1,49 @@
+# ==============================================================================
+# ARCHIVO DE EXCLUSIONES GIT - SEGURIDAD Y AUDITORÍA APECC
+# Protege credenciales, claves de cifrado y dependencias para GitHub
+# ==============================================================================
+
+# 1. Variables de entorno y contraseñas secretas (CRÍTICO DE CIBERSEGURIDAD)
+.env
+*.env
+05_Desarrollo/.env
+05_Desarrollo/.env.local
+05_Desarrollo/.env.production
+
+# 2. Dependencias de Node.js
+node_modules/
+05_Desarrollo/node_modules/
+package-lock.json
+05_Desarrollo/package-lock.json
+
+# 3. Logs de auditoría y trazas del sistema
+logs/
+05_Desarrollo/logs/*.log
+05_Desarrollo/logs/audit.log
+05_Desarrollo/logs/combined.log
+05_Desarrollo/logs/error.log
+*.log
+npm-debug.log*
+
+# 4. Bases de datos locales y backups
+*.db
+05_Desarrollo/base_datos.db
+05_Desarrollo/backups/*.db
+backups/
+
+# 5. Certificados SSL locales
+05_Desarrollo/certs/*.pem
+05_Desarrollo/certs/*.crt
+05_Desarrollo/certs/*.key
+
+# 6. Archivos del Sistema Operativo y Editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 7. Guías de estudio privadas y apuntes personales para la exposición
+guia_exposicion.txt
+preguntas_y_respuestas_jurado.txt
+GUIA_MAESTRA_SUSTENTACION_JURADO.*
+

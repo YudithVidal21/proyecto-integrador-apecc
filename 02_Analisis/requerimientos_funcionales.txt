@@ -1,0 +1,69 @@
+REQUERIMIENTOS FUNCIONALES – MÓDULO MATRÍCULA EN LÍNEA APECC
+
+RF01 – Visualizar cursos y diplomados
+Descripción: El sistema debe mostrar los cursos y diplomados disponibles con información básica.
+Prioridad: Alta
+Criterio de aceptación: El usuario puede visualizar el listado de programas disponibles.
+
+RF02 – Consultar información del curso
+Descripción: El sistema debe permitir consultar descripción, objetivos, contenido, horario, duración, modalidad e inversión.
+Prioridad: Alta
+Criterio de aceptación: Al seleccionar un curso se muestra toda su información.
+
+RF03 – Registrar participante
+Descripción: El sistema debe permitir ingresar nombres, apellidos, DNI, correo y celular/WhatsApp.
+Prioridad: Alta
+Criterio de aceptación: El sistema permite completar y registrar los datos obligatorios.
+
+RF04 – Seleccionar curso
+Descripción: El sistema debe asociar al participante con el curso o diplomado seleccionado.
+Prioridad: Alta
+Criterio de aceptación: El curso seleccionado aparece asociado al registro.
+
+RF05 – Cargar comprobante
+Descripción: El sistema debe permitir adjuntar el comprobante de pago.
+Prioridad: Alta
+Criterio de aceptación: El usuario puede seleccionar y adjuntar un comprobante antes de enviar la matrícula.
+
+RF06 – Validar campos obligatorios
+Descripción: El sistema debe verificar que los datos requeridos hayan sido completados.
+Prioridad: Alta
+Criterio de aceptación: Si falta un dato obligatorio, el sistema solicita completarlo.
+
+RF07 – Registrar matrícula
+Descripción: El sistema debe registrar la información proporcionada por el participante.
+Prioridad: Alta
+Criterio de aceptación: Al enviar correctamente el formulario, la matrícula queda registrada.
+
+RF08 – Confirmar inscripción
+Descripción: El sistema debe mostrar un mensaje confirmando el registro de la matrícula.
+Prioridad: Media
+Criterio de aceptación: Después del envío aparece un mensaje de confirmación.
+
+ OJO 2.1. Requerimientos y Especificaciones
+Tabla 1: Matriz de Requerimientos Funcionales
+Tabla 2: Matriz de Requerimientos No Funcionales
+
+PASO 1 — ¿Qué es un requerimiento?
+
+En palabras sencillas:
+
+Un requerimiento es algo que nuestro sistema debe hacer o cumplir.
+
+Por ejemplo:
+
+"El usuario debe poder seleccionar un curso."
+
+Eso es un requerimiento funcional.
+
+
+
+Una precisión
+
+No estoy poniendo:
+
+"El sistema valida automáticamente que el voucher sea verdadero."
+
+Porque eso no es lo que ustedes plantearon.
+
+El sistema recibe y centraliza el comprobante. La validación puede realizarla posteriormente el personal de APECC.

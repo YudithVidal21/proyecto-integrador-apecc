@@ -1,0 +1,48 @@
+PROYECTO INTEGRADOR APECC
+Si el objetivo general definitivo es:
+
+Diseñar y proponer un módulo web de “Matrícula en Línea” para la Asociación Peruana de Ciencias Jurídicas y Conciliación (APECC), con la finalidad de automatizar el registro de participantes, centralizar la gestión de los comprobantes de pago y reducir los errores y reclamos relacionados con la falta de acceso a las clases.
+
+Entonces los específicos que escribiste antes tienen sentido:
+
+1.
+
+Diagnosticar el proceso actual de inscripción mediante WhatsApp y correo electrónico de APECC, para identificar los puntos críticos que ocasionan dificultades en el registro y validación de comprobantes de pago y afectan la confianza de los usuarios.
+
+2.
+
+Diseñar los prototipos de interfaz y el flujo de navegación del módulo de Matrícula en Línea, para definir visualmente el formulario de registro y el proceso de carga del comprobante de pago.
+
+
+Desarrollar la interfaz web del módulo de Matrícula en Línea empleando HTML5, CSS3 y JavaScript, para implementar las funcionalidades definidas y facilitar su futura integración al sitio web existente de APECC.
+
+4.
+
+Diseñar la estructura de almacenamiento de los datos de los inscritos y sus comprobantes de pago, para centralizar la información y facilitar su gestión administrativa.
+
+5.
+
+Validar el funcionamiento del módulo de Matrícula en Línea mediante pruebas de sus principales funcionalidades, para verificar el cumplimiento de los requerimientos definidos y su aporte al proceso de inscripción.
+
+Objetivo general:
+
+Diseñar y proponer el módulo.
+
+
+OE1: Entender el problema.
+
+OE2: Diseñar cómo funcionará.
+
+OE3: Desarrollar la interfaz.
+
+OE4: Organizar los datos.
+
+OE5: Comprobar que funciona.
+
+Eso ya tiene una secuencia lógica de proyecto.
+
+Mi recomendación final
+
+ porque es concreta, realista y está directamente relacionada con lo que ustedes explicaron sobre APECC. Y si el profesor pregunta por qué cambiaron "eliminar" por "reducir", pueden decir:
+
+"Porque el sistema busca reducir los errores y reclamos mediante la centralización del proceso, pero no podemos garantizar que los elimine completamente."

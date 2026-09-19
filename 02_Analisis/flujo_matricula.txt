@@ -1,0 +1,52 @@
+FLUJO DEL PROCESO DE MATRÍCULA EN LÍNEA – APECC
+
+INICIO
+
+1. El usuario ingresa al sitio web de APECC.
+
+2. Selecciona la opción "Matrícula en Línea".
+
+3. El sistema muestra los cursos y diplomados disponibles.
+
+4. El usuario selecciona el curso o diplomado de su interés.
+
+5. El sistema muestra la información del curso:
+   - Descripción
+   - Objetivos
+   - Contenido
+   - Horario
+   - Duración
+   - Modalidad
+   - Inversión
+
+6. El usuario selecciona la opción "Matricularme".
+
+7. El sistema muestra el formulario de registro.
+
+8. El usuario ingresa sus datos:
+   - Nombres y apellidos
+   - DNI
+   - Correo electrónico
+   - Celular/WhatsApp
+
+9. El usuario adjunta su comprobante de pago.
+10. El usuario acepta las condiciones.
+
+11. Selecciona "Enviar Matrícula".
+
+12. El sistema registra la información.
+
+13. El sistema muestra:
+   "Gracias, tu inscripción ha sido registrada."
+
+FIN
+OJO estamos haciendo un analisis del funcionamiento del proyecto
+Nuestro proyecto seguira este cambiaron
+Pagina APECC
+Matricula en linea
+Cursos y diplomados 
+Elegir curso
+formularioComprobante de pago
+Enviar Matricula
+confirmacion
+claro que este flujo nos servira para diseñar nuestras plantillas 

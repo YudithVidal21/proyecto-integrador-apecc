@@ -1,0 +1,29 @@
+REQUERIMIENTOS NO FUNCIONALES
+MÓDULO MATRÍCULA EN LÍNEA – APECC
+
+RNF01 – Usabilidad
+Descripción: La interfaz debe ser clara, sencilla y permitir completar la matrícula sin conocimientos técnicos avanzados.
+Prioridad: Alta
+
+RNF02 – Compatibilidad
+Descripción: El módulo debe funcionar correctamente en navegadores modernos como Chrome, Edge y Firefox.
+Prioridad: Alta
+
+RNF03 – Rendimiento
+Descripción: Las páginas principales deben cargar y responder en un tiempo adecuado bajo condiciones normales de uso.
+Prioridad: Alta
+
+RNF04 – Seguridad
+Descripción: Los datos personales y comprobantes deben ser tratados de forma segura y el acceso a la información debe estar restringido.
+Prioridad: Alta
+
+RNF05 – Disponibilidad
+Descripción: El módulo debe estar disponible durante los horarios establecidos para las inscripciones.
+Prioridad: Media
+RNF06 – Mantenibilidad
+Descripción: La estructura del código debe estar organizada para facilitar futuras modificaciones y actualizaciones.
+Prioridad: Media
+
+RNF07 – Accesibilidad
+Descripción: Los formularios y elementos principales deben presentar textos claros y controles fáciles de identificar.
+Prioridad: Media
