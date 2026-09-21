@@ -141,7 +141,7 @@ async function cargarMatriculas() {
     let matriculas = [];
 
     try {
-        const res = await fetch(`${API_URL}/api/matriculas`, {
+        const res = await fetch(`http://localhost:3000/api/matriculas`, {
             headers: {
                 'Authorization': `Bearer ${token}`
             }
