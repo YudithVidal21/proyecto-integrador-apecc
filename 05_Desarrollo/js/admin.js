@@ -251,7 +251,7 @@ async function cambiarEstadoMatricula(id, codigo, nuevoEstado) {
 
     if (id) {
         try {
-            const res = await fetch(`${API_URL}/api/matriculas/${id}/estado`, {
+            const res = await fetch(`http://localhost:3000/api/matriculas/${id}/estado`, {
                 method: 'PUT',
                 headers: { 
                     'Content-Type': 'application/json',
