@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "cleanUrls": true,
+  "cleanUrls": false,
   "rewrites": [
-    { "source": "/", "destination": "/05_Desarrollo/index.html" },
-    { "source": "/index.html", "destination": "/05_Desarrollo/index.html" },
     { "source": "/admin.html", "destination": "/05_Desarrollo/admin.html" },
+    { "source": "/index.html", "destination": "/05_Desarrollo/index.html" },
     { "source": "/css/:match*", "destination": "/05_Desarrollo/css/:match*" },
     { "source": "/js/:match*", "destination": "/05_Desarrollo/js/:match*" }
   ]
