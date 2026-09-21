@@ -10,9 +10,9 @@ const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.get('backend')) {
     localStorage.setItem('apecc_backend_url', urlParams.get('backend').replace(/\/$/, ''));
 }
-const API_URL = localStorage.getItem('apecc_backend_url')
-    || ((window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.protocol === 'file:') ? 'http://localhost:3000' : '');
-
+//const API_URL = localStorage.getItem('apecc_backend_url')
+ //   || ((window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.protocol === 'file:') ? 'http://localhost:3000' : '');
+const API_URL = 'http://localhost:3000';
 
 // ------------------------------------------------------------------------------
 // 1. GESTIÓN DEL MODAL DE MATRÍCULA Y PASARELA
